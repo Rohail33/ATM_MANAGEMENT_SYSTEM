@@ -1,41 +1,94 @@
-🏦 ATM Management System
-A comprehensive ATM Management System built in C++ implementing various data structures with a console-based interface for banking operations.
+🏧 ATM Management System (C++)
+
+A comprehensive ATM Management System developed in C++, implementing core data structures with a console-based interface to simulate real-world banking operations.
 
 ✨ Features
 🔐 Account Management
-Create Accounts with unique account numbers, 4-digit PINs, and holder names
 
-Secure Login System with PIN validation and attempt limiting (3 attempts)
+Create accounts with:
 
-Account Deletion with confirmation prompts
+Unique account numbers
 
-Balance Management with deposit/withdrawal operations
+4-digit PINs
 
-Admin Panel for viewing all accounts and system management
+Account holder names
 
-💳 Transaction System
-Real-time Transactions with timestamp recording
+Secure login with PIN validation
 
-Transaction History stack (LIFO) for undo operations
+Maximum 3 login attempts
 
-Pending Transactions Queue (FIFO) for batch processing
+Account deletion with confirmation prompts
 
-Undo Last Transaction feature for error correction
+💰 Balance Operations
 
-Transaction Validation with balance checks
+Deposit funds
 
-🏗️ Data Structures Implemented
-Linked List - Dynamic account storage
+Withdraw funds
 
-Stack - Transaction history (Undo functionality)
+Automatic balance validation to prevent overdrafts
 
-Queue - Pending transactions processing
+🛠️ Admin Panel
 
-Team:
+View all registered accounts
+
+Manage system-level operations
+
+🔄 Transaction System
+
+Real-time transactions with timestamp recording
+
+Undo last transaction feature for error correction
+
+Transaction validation with balance checks
+
+📜 Transaction History & Processing
+
+Stack (LIFO)
+
+Stores transaction history
+
+Enables undo functionality
+
+Queue (FIFO)
+
+Manages pending transactions
+
+Supports batch processing
+
+🧱 Data Structures Used
+
+Linked List – Dynamic account storage
+
+Stack – Transaction history and undo operations
+
+Queue – Pending transaction processing
+
+🚀 Technologies
+
+Language: C++
+
+Interface: Console-based
+
+Concepts:
+
+Data Structures
+
+File handling (if applicable)
+
+Input validation
+
+Modular programming
+
+👥 Team Members
+
 @Rohail3
 
 @Arshma63
 
 @aimalcreates
 
-MadihaKhalid3
+@MadihaKhalid3
+
+📄 License
+
+This project is licensed under the GPL-3.0 License.
